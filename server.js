@@ -50,7 +50,7 @@ const upload = multer({ storage }); // Esto es necesario
 // Token de verificación whatsapp
 const PHONE_NUMBER_ID = '647231371804248';
 //const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
-const ACCESS_TOKEN = 'EAAHiq6kLcOIBOxZBvoxj1VNGLIoS1906ZCqnLplpsw8Rknh3jRG4Knq9ZC4UoNNLFxOQbbfHS8LTCXitxMOZCvDnwH2hMiWKnTY3OqQFZCjWDHArZAwyHhqlUHRinBWHkpy5KSdeSIP1W0sKBRfFNcEs3H0TXwXTZB1iX3aB8qgualY3c1bYWfmJHEjZAODbVYisZCQZDZD';
+const ACCESS_TOKEN = 'EAAHiq6kLcOIBOwEDdbRrwGLX7XKQD4lWFGyv5xClQoBlegZAS74KZATOI83KCuI6oUHBq6xbB1COrjQT4IaFayMzo5WIkwq36DQjneTpZBHLkDCK4F9CXvIjTDqZCHas7qslcmolCoBzrzyIcmCOK5YAT2DI5HWOwiPp4BeUxem7n5J0wHNXOlAyZBYfulZCAcHAZDZD';
 const VERIFY_TOKEN = 'Py$J/aw$E09Fw&iA#nz22mrhg';
 
 const fs = require('fs');
