@@ -48,9 +48,9 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage }); // Esto es necesario
 
 // Token de verificación whatsapp
-const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
+const PHONE_NUMBER_ID = '4043019102608591';
 //const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
-const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+const ACCESS_TOKEN = 'EAAHiq6kLcOIBOxZBvoxj1VNGLIoS1906ZCqnLplpsw8Rknh3jRG4Knq9ZC4UoNNLFxOQbbfHS8LTCXitxMOZCvDnwH2hMiWKnTY3OqQFZCjWDHArZAwyHhqlUHRinBWHkpy5KSdeSIP1W0sKBRfFNcEs3H0TXwXTZB1iX3aB8qgualY3c1bYWfmJHEjZAODbVYisZCQZDZD';
 const VERIFY_TOKEN = 'Py$J/aw$E09Fw&iA#nz22mrhg';
 
 const fs = require('fs');
