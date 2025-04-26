@@ -47,8 +47,9 @@ const upload = multer({ storage }); // Esto es necesario
 
 // Token de verificación whatsapp
 const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
-const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
+//const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+const VERIFY_TOKEN = 'Py$J/aw$E09Fw&iA#nz22mrhg';
 
 const fs = require('fs');
 
