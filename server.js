@@ -127,7 +127,7 @@ app.post('/send-message', async (req, res) => {
             text: { body: response }
         };
 
-        const url = `https://graph.facebook.com/v21.0/559822483873940/messages`;
+        const url = `https://graph.facebook.com/v22.0/647231371804248/messages`;
 
         const whatsappResponse = await axios.post(url, data, {
             headers: {
@@ -163,7 +163,7 @@ app.post('/send-manual-message', async (req, res) => {
         text: { body: message }
       };
   
-      const url = `https://graph.facebook.com/v21.0/559822483873940/messages`;
+      const url = `https://graph.facebook.com/v22.0/647231371804248/messages`;
   
       // Send the message via the WhatsApp API
       const whatsappResponse = await axios.post(url, data, {
