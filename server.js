@@ -5,6 +5,8 @@ const cors = require('cors'); // Para habilitar CORS
 const multer = require('multer');
 const mysql = require('mysql2'); // Para conectarse a la base de datos
 const FormData = require('form-data'); // Add this import at the top of your file
+const cloudinary = require('cloudinary').v2;
+const { CloudinaryStorage } = require('multer-storage-cloudinary');
 
 
 const app = express();
